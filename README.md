@@ -35,6 +35,8 @@ Quem é esse pokémon é uma simulação de um minigame feito apenas para estudo
 
 ## 🚀 Como executar
 
+- Acesse a demo no netlify mapx-game.netlify.app
+- ou para executar localmente
 - Clone o repositório
 - Instale as dependências com `yarn`
 - Inicie o servidor com `yarn start`
