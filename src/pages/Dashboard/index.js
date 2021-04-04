@@ -44,6 +44,7 @@ const Dashboard = () => {
             handleErrors()
             toast.error("Você errou :(")
         }
+        setInput("")
         loadPokemon()
     }
 
@@ -86,7 +87,7 @@ const Dashboard = () => {
                         </Pokemon>
                         
                         <WrapperButtons>
-                            <Input type="text" placeholder="Nome do pokémon" onChange={handleInput}/>
+                            <Input type="text" placeholder="Nome do pokémon" onChange={handleInput} value={input}/>
                             <Button click={handleAnswer} text="Responder" color="#20ad6b"/>
                             <Button click={handleFinish} text="Encerrar jogo" color="#ff3737"/>
                         </WrapperButtons>
