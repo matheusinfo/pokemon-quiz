@@ -42,7 +42,7 @@ const Dashboard = () => {
             toast.success("Você acertou :D")
         }else{
             handleErrors()
-            toast.error("Você errou :(")
+            toast.error(`Você errou, o nome correto é ${name} :(`)
         }
         setInput("")
         loadPokemon()
