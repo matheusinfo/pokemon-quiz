@@ -37,7 +37,7 @@ Quem é esse pokémon é uma simulação de um minigame feito apenas para estudo
 
 - Acesse a demo no netlify mapx-game.netlify.app
 - ou para executar localmente
-- Clone o repositório
+- Clone o repositório (git clone https://github.com/MatheusINFO/pokemon-quiz.git)
 - Instale as dependências com `yarn`
 - Inicie o servidor com `yarn start`
 
